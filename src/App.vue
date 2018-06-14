@@ -6,6 +6,7 @@
     <StudyExp />
     <Projects />
     <Language />
+    <Contact />
     <Footer />
   </div>
 </template>
@@ -21,8 +22,9 @@ import Projects from './components/Projects.vue';
 import Language from './components/Language.vue';
 import Main from './components/Main.vue';
 import Footer from './components/Footer.vue';
+import Contact from './components/Contact.vue';
 import 'buefy/lib/buefy.css';
-import resume from './resume_en.json';
+import resume from './resume_cn.json';
 
 @Component({
   components: {
@@ -35,6 +37,7 @@ import resume from './resume_en.json';
     Language,
     Projects,
     Footer,
+    Contact,
   },
 })
 export default class App extends Vue {

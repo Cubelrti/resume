@@ -20,6 +20,10 @@ interface Project {
     time: string;
     feature: string;
 }
+interface Contact {
+    type: string;
+    content: string;
+}
 
 interface Resume {
     name: string;
@@ -28,6 +32,7 @@ interface Resume {
     language: Language[];
     language_ability: string[];
     project: Project[];
+    contact: Contact[];
 }
 
 declare module '*.json' {
