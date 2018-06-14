@@ -86,6 +86,16 @@
             "time": "2018",
             "image": "midihub.png"
         }
+    ],
+    "contact": [
+        {
+            "type": "wechat",
+            "content": "jingjing115115 or scan the qrcode below."
+        },
+        {
+            "type": "email",
+            "content": "tankrity@gmail.com"
+        }
     ]
 
 }
