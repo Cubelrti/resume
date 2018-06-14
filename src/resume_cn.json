@@ -1,0 +1,91 @@
+{
+    "name": "龙灏天",
+    "description": [
+        "Typescript/Javascript 开发者",
+        "前端开发者"
+    ],
+    "study": {
+        "name": "北京交通大学",
+        "time": "2016 - 至今",
+        "description": "211 工程重点高校",
+        "school": "软件学院",
+        "status": "本科二年级"
+    },
+    "language": [
+        {
+            "title": "CET-4",
+            "score": "550",
+            "portion": 0.7
+        },
+        {
+            "title": "CET-6",
+            "score": "584",
+            "portion": 0.85
+        }
+    ],
+    "language_ability": [
+        "能够流畅阅读英文文档。",
+        "能够编写英文文档并正常使用英语交流。",
+        "能够在开发过程中查阅 StackOverflow/Github/MSDN 等网站。"
+    ],
+    "project": [
+        {
+            "title": "Obsidian",
+            "technique": "",
+            "description": [
+                "在此项目中，我负责 **前端** 用户界面.",
+                "我使用了 **React** 来创建管理界面， 从而在大量用户时提供良好的列表性能。",
+                "我使用了 **Webpack** 来构建打包后的代码。 我使用 **Happypack** 和 **热模块重载** 来加快构建速度。",
+                "我使用了 **Jest** 和 **Enzyme** 来编写前端测试， 这些测试可以避免意外的修改和保证组件之间的连接可用。"
+            ],
+            "feature": "Obsidian 一个以 .NET Core 为后端的项目。 它为兼容 OAuth2.0 协议的网站提供了一个一站式的登录认证服务。",
+            "time": "2017",
+            "image": "obsidian.png"
+        },
+        {
+            "title": "Prove",
+            "technique": "",
+            "description": [
+                "我使用了 **Typescript** 和 **Angular** 来构建用户界面。 Angular 以及 RxJS 为聊天应用的异步操作提供了解决方案。",
+                "我使用了 **Electron** 来构建客户端。 Electron 非常流行，可以提供跨平台的支持。"
+            ],
+            "feature": "使用 Prove 来管理你的所有加密信息。 为 GnuPG 提供更加友好的用户界面。",
+            "time": "2017 - 2018",
+            "image": "prove.png"
+        },
+        {
+            "title": "Kontent",
+            "technique": "",
+            "description": [
+                "我使用了 **Vue** 很 **Vuex** 来构建前端界面。 使用 Vue 提供了简单快捷的数据绑定和更新。",
+                "我使用了 **Vuex** 来存储状态树。 使用 Vuex ，我可以跟踪数据的变化和动作。"
+            ],
+            "feature": "Kontent 是一个轻量级的内容管理系统， 它可以展示由 Markdown 编写的内容。",
+            "time": "2017 - 2018",
+            "image": "kontent.png"
+        },
+        {
+            "title": "FailureTroubleshooting",
+            "technique": "",
+            "description": [
+                "在这个项目中, 我负责维护 **前端** 用户界面。",
+                "我使用了 **JQuery** 和 **Bootstrap** 来构建用户界面。",
+                "我使用了 **Less** 来编写模块化的样式表。 使用 Less 可以减少冗余代码并编写更通用的界面。"
+            ],
+            "feature": "故障报修系统是一个基于 ASP.NET 和 MongoDB 的项目。 它提供了一个具有提交，跟踪，维护和反馈报修状况的完整系统。",
+            "time": "2015 - 2017",
+            "image": "failurets.png"
+        },
+        {
+            "title": "MidiHub",
+            "technique": "",
+            "description": [
+                "我使用了 **React** 来构建这个网站。 "
+            ],
+            "feature": "在 MidiHub 分享协作您的音乐！ (构建中)",
+            "time": "2018",
+            "image": "midihub.png"
+        }
+    ]
+
+}

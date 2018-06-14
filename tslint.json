@@ -5,7 +5,9 @@
   ],
   "linterOptions": {
     "exclude": [
-      "node_modules/**"
+      "node_modules/**",
+      "src/resume_cn.json",
+      "src/resume_en.json"
     ]
   },
   "rules": {
