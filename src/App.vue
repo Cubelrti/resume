@@ -24,7 +24,7 @@ import Main from './components/Main.vue';
 import Footer from './components/Footer.vue';
 import Contact from './components/Contact.vue';
 import 'buefy/lib/buefy.css';
-import resume from './resume_cn.json';
+import resume from './resume_en.json';
 
 @Component({
   components: {
