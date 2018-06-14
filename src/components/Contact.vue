@@ -1,6 +1,6 @@
 <template>
       <div class="box container">
-        <h1 class="is-size-3">联系方式</h1>
+        <h1 class="is-size-3">Contact Me</h1>
         <div class="content">
           <ul>
             <li v-for="(item, index) in resume.contact" :key="index">
