@@ -1,6 +1,7 @@
 <template>
     <div id="study" class="box container">
-        <h1 class="is-size-3">Study Experience</h1>
+        <h1 class="is-size-3" v-if="lang == 'zh'">教育经历</h1>
+        <h1 class="is-size-3" v-else>Study Experience</h1>
          <article class="media">
             <figure class="media-left">
                 <p class="image is-64x64">
@@ -36,6 +37,7 @@ import { Component, Prop, Vue, Inject } from 'vue-property-decorator';
 
 @Component
 export default class StudyExp extends Vue {
+    @Inject() private lang!: string;
     @Inject() private resume!: Resume;
 }
 </script>

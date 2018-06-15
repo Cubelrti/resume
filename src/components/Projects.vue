@@ -1,6 +1,7 @@
 <template>
     <div id="project" class="box container">
-        <h1 class="is-size-3">Project Experience</h1>
+        <h1 class="is-size-3" v-if="lang == 'zh'">项目经历</h1>
+        <h1 class="is-size-3" v-else>Project Experience</h1>
         <div class="card" v-for="(item, index) in resume.project" :key="index">
             <div class="card-image">
                 <figure class="image">
@@ -32,6 +33,7 @@ import markdownit from 'markdown-it';
 
 @Component
 export default class Projects extends Vue {
+    @Inject() private lang!: string;
     @Inject() private resume!: Resume;
     private renderMarkdown(text: string) {
         return markdownit().render(text);
