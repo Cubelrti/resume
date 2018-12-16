@@ -1,105 +1,131 @@
 {
-    "name": "Long Haotian",
-    "description": [
-        "Typescript/Javascript Developer",
-        "Front-end Developer"
-    ],
-    "study": {
-        "name": "Beijing Jiaotong University",
-        "time": "2016 - current",
-        "description": "Project 211 National Key Universities",
-        "school": "School of Software Engineering",
-        "status": "Second Year Undergraduate"
-    },
-    "language": [
-        {
-            "title": "CET-4",
-            "score": "550",
-            "portion": 0.7
-        },
-        {
-            "title": "CET-6",
-            "score": "584",
-            "portion": 0.85
-        }
-    ],
-    "language_ability": [
-        "Able to read English documentations swiftly.",
-        "Able to write document in English and communicate normally.",
-        "Able to refer to StackOverflow, GitHub and MSDN for developing."
-    ],
-    "project": [
-        {
-            "title": "Obsidian",
-            "technique": "",
-            "description": [
-                "At this project, I maintain **front-end** user interfaces.",
-                "I used **React** to create administration portal. React provides great performance when there is large amount of users.",
-                "I used **Webpack** to bundle all the plugins. I used **Happypack** and **Hot Module Reload** to boost up building speed.",
-                "I used **Jest** and **Enzyme** to build front-end tests. It prevents code being changed unexpectedly and makes sure binding is working."
-            ],
-            "feature": "Obsidian is a project based on .NET Core. It provide a one-stop authentication service for OAuth2.0 compatible sites.",
-            "time": "2017",
-            "image": "obsidian.png"
-        },
-        {
-            "title": "Prove",
-            "technique": "",
-            "description": [
-                "I used **Typescript** and **Angular** to build user interface. Angular and RxJS provides good solution to chat, which is asynchonomous.",
-                "I used **Electron** to build a client. Electron is popular framework which provide cross platform support."
-            ],
-            "feature": "Use prove to create your own encrypted message. Protect yourself with GnuPG.",
-            "time": "2017 - 2018",
-            "image": "prove.png"
-        },
-        {
-            "title": "Kontent",
-            "technique": "",
-            "description": [
-                "I used **Vue** and **Vuex** to build this project. Using Vue provides fast but simple data binding and updating.",
-                "I used **Vuex** to store the state tree. Using Vuex, I can track mutations and actions on data."
-            ],
-            "feature": "Kontent is a lightweight content management system. It provides simple display with Markdown.",
-            "time": "2017 - 2018",
-            "image": "kontent.png"
-        },
-        {
-            "title": "FailureTroubleshooting",
-            "technique": "",
-            "description": [
-                "At this project, I maintain **front-end** user interfaces.",
-                "I used **JQuery** and **Bootstrap** to build front end interface.",
-                "I used **Less** to build modular stylesheet. Using Less make less code and build a more generic interface."
-            ],
-            "feature": "FailureTrobleshooting is a project based on ASP.NET and MongoDB. It provides a fully-featured system which can maintain, track and review fixes and troubles.",
-            "time": "2015 - 2017",
-            "image": "failurets.png"
-        },
-        {
-            "title": "MidiHub",
-            "technique": "",
-            "description": [
-                "I used **React** to create this web app. "
-            ],
-            "feature": "Share and collaborate music on MidiHub! (WIP).",
-            "time": "2018",
-            "image": "midihub.png"
-        }
-    ],
-    "contact": [
-        {
-            "type": "wechat",
-            "content": "jingjing115115 or scan the qrcode below."
-        },
-        {
-            "type": "email",
-            "content": "tankrity@gmail.com"
-        },
-        {
-            "type": "phone",
-            "content": "(+86)13051138188"
-        }
-    ]
+  "name": "Long Haotian",
+  "description": ["Typescript/Javascript Developer", "Front-end Developer"],
 
+  "intern": [
+    {
+      "name": "Megvii Research FastAI",
+      "time": "2018.6 - current",
+      "title": "Researcher"
+    }
+  ],
+  "study": {
+    "name": "Beijing Jiaotong University",
+    "time": "2016 - current",
+    "description": "Project 211 National Key Universities",
+    "school": "School of Software Engineering",
+    "status": "Third Year Undergraduate"
+  },
+  "language": [
+    {
+      "title": "CET-4",
+      "score": "550",
+      "portion": 0.7
+    },
+    {
+      "title": "CET-6",
+      "score": "584",
+      "portion": 0.85
+    }
+  ],
+  "language_ability": [
+    "Able to read English documentations swiftly.",
+    "Able to write document in English and communicate normally.",
+    "Able to refer to StackOverflow, GitHub and MSDN for developing."
+  ],
+  "project": [
+    {
+      "title": "FastLabel",
+      "technique": "",
+      "description": [
+        "At this project, I maintain **front-end** user interfaces and logic.",
+        "I used **Vue** and **Typescript** to create this project.",
+        "I used **Canvas API** for base graphics.",
+        "I implemented reuseable components using **Decorators**, using **mixins** and **event dispatchers**",
+        "I optimized the overall performance by using **LocalStorage Caching**, **Recycler View List** and **multiple-layered canvases**."
+      ],
+      "feature": "FastLabel is an interactive labeling platform to boost up speed of labeling for AI.",
+      "time": "2018"
+    },
+    {
+      "title": "DogID Identity Platform",
+      "description": [
+        "At this project, I maintain **front-end** and **back-end** interfaces.",
+        "I used **Flask** and **Nuxt.js** to create this project.",
+        "I used **WebRTC** for live camera recognition and real-time interaction."
+      ],
+      "feature": "DogID Identity Platform enable users to identify his beloved dog, protecting him, and even have fun with him.",
+      "time": "2018"
+    },
+    {
+      "title": "GazeLabel",
+      "description": [
+        "At this project, I maintain **front-end** and **middleware**.",
+        "I used **Nuxt.js** and **Express** to create this project.",
+        "This demostration has been submitted to ACM Sensys 2018."
+      ],
+      "time": "2018"
+    },
+    {
+      "title": "Obsidian",
+      "technique": "",
+      "description": [
+        "At this project, I maintain **front-end** user interfaces.",
+        "I used **React** to create administration portal. React provides great performance when there is large amount of users.",
+        "I used **Webpack** to bundle all the plugins. I used **Happypack** and **Hot Module Reload** to boost up building speed.",
+        "I used **Jest** and **Enzyme** to build front-end tests. It prevents code being changed unexpectedly and makes sure binding is working."
+      ],
+      "feature": "Obsidian is a project based on .NET Core. It provide a one-stop authentication service for OAuth2.0 compatible sites.",
+      "time": "2017",
+      "image": "obsidian.png"
+    },
+    {
+      "title": "Prove",
+      "technique": "",
+      "description": [
+        "I used **Typescript** and **Angular** to build user interface. Angular and RxJS provides good solution to chat, which is asynchonomous.",
+        "I used **Electron** to build a client. Electron is popular framework which provide cross platform support."
+      ],
+      "feature": "Use prove to create your own encrypted message. Protect yourself with GnuPG.",
+      "time": "2017 - 2018",
+      "image": "prove.png"
+    },
+    {
+      "title": "Kontent",
+      "technique": "",
+      "description": [
+        "I used **Vue** and **Vuex** to build this project. Using Vue provides fast but simple data binding and updating.",
+        "I used **Vuex** to store the state tree. Using Vuex, I can track mutations and actions on data."
+      ],
+      "feature": "Kontent is a lightweight content management system. It provides simple display with Markdown.",
+      "time": "2017 - 2018",
+      "image": "kontent.png"
+    },
+    {
+      "title": "FailureTroubleshooting",
+      "technique": "",
+      "description": [
+        "At this project, I maintain **front-end** user interfaces.",
+        "I used **JQuery** and **Bootstrap** to build front end interface.",
+        "I used **Less** to build modular stylesheet. Using Less make less code and build a more generic interface."
+      ],
+      "feature": "FailureTrobleshooting is a project based on ASP.NET and MongoDB. It provides a fully-featured system which can maintain, track and review fixes and troubles.",
+      "time": "2015 - 2017",
+      "image": "failurets.png"
+    }
+  ],
+  "contact": [
+    {
+      "type": "wechat",
+      "content": "jingjing115115 or scan the qrcode below."
+    },
+    {
+      "type": "email",
+      "content": "tankrity@gmail.com"
+    },
+    {
+      "type": "phone",
+      "content": "(+86)13051138188"
+    }
+  ]
 }
