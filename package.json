@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@types/markdown-it": "^0.0.4",
-    "buefy": "^0.6.3",
+    "buefy": "^0.7.2",
     "markdown-it": "^8.4.1",
     "vue": "^2.5.16",
     "vue-class-component": "^6.0.0",
